@@ -7,6 +7,9 @@ A lightweight python package that analyzes weather station temperature data from
 > 
 > Project Feederwatch Data provided by Cornell Lab of Ornithology
 
+# Problems and Motivation
+Scientists are already witnessing the impacts of global temperature increase on wildlife populations. More specifically, on migratory wildlife populations, including species of hummingbirds. Migratory hummingbirds, including the broad-tailed hummingbird _(Selasphorus Platycercus)_, black-chinned hummingbird _(Archilochus alexandri)_, Rufous hummingbird _(Selasphorus rufus)_, and calliope hummingbird _(Stellula calliope)_ use the Rocky Mountain region between April through August, before returning to their wintering grounds. However, with increasing temperatures across this region, it is hypothesized that peak flowering is occurring earlier than historically recorded. In turn, hummingbirds arriving during typical migration periods miss peak flowering, and thus lack adequate food availability. For this project, I am focusing on a subset of the Mountain West Region and analyzing temporal mismatch occuring in the Front Range of Colorado: Boulder, Castle Rock, and Fort Collins. 
+
 # Usage
 
 Nectar is intended to be used for scientists and wildlife officials to determine temporal mismatch between hummingbird arrivalals and flowering bloom time. This package outputs a dataframe with an average estimated hummingbird arrival day of year (DOY), an estimated flowering DOY for all of the existing data years provided, the number of days of temporal mismatch, and the mean temporal mismatch over all of the years analyzed. Additionally, the plotting functionality provides a visual representation of how migration and estimated bloom evolve over time. This analysis can be used to help better understand trends over time. 
