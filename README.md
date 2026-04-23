@@ -14,7 +14,7 @@ Scientists are already witnessing the impacts of global temperature increase on 
 
 Nectar is intended to be used for scientists and wildlife officials to determine temporal mismatch between hummingbird arrivalals and flowering bloom time. This package outputs a dataframe with an average estimated hummingbird arrival day of year (DOY), an estimated flowering DOY for all of the existing data years provided, the number of days of temporal mismatch, and the mean temporal mismatch over all of the years analyzed. Additionally, the plotting functionality provides a visual representation of how migration and estimated bloom evolve over time. This analysis can be used to help better understand trends over time. 
 
-## Installation
+## Installation - this does not work yet
 
 ```bash
 pip install -e .
@@ -28,7 +28,7 @@ cd nectar
 pip install -e .
 ```
 
-## Quick Start -- Need to figure this out...
+## Quick Start -- this does not work yet
 
 ```python
 from lorenz_project import Lorenz63
@@ -37,7 +37,7 @@ model = Lorenz63(sigma=10, rho=28, beta=8/3)
 trajectory = model.run([1, 1, 1], dt=0.01, n_steps=5000)
 ```
 
-## Command Line
+## Command Line - this does not work yet
 
 ```bash
 run-nectar    # generates data/flowering_vs_arrival.png and data/mismatch.png
