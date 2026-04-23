@@ -2,6 +2,10 @@
 
 A lightweight python package that analyzes weather station temperature data from Colorado Climate Center (https://climate.colostate.edu/data_access_new.html) and data from Project Feederwatch (https://feederwatch.org/) to compare estimated flowering day of year and estimated hummingbird arrival day of year for four species of migratory hummingbirds in Colorado.  
 
+# DATA
+The raw FeederWatch dataset (~1.6 GB) is not included in this repository due to GitHub file size limits.
+Users must download it separately from (https://feederwatch.org/explore/raw-dataset-requests/) and place it in the data/ directory before running the scripts.
+
 > **Data source:**   
 > Colorado Climate Center Station Data provided by Colorado State University
 > 
