@@ -3,7 +3,8 @@
 A lightweight python package that analyzes weather station temperature data from Colorado Climate Center (https://climate.colostate.edu/data_access_new.html) and data from Project Feederwatch (https://feederwatch.org/) to compare estimated flowering day of year and estimated hummingbird arrival day of year for four species of migratory hummingbirds in Colorado.  
 
 > **Data source:**   
-> Colorado Climate Center Station Data provided by Colorado State Univeristy
+> Colorado Climate Center Station Data provided by Colorado State University
+> 
 > Project Feederwatch Data provided by Cornell Lab of Ornithology
 
 # Usage
@@ -41,10 +42,10 @@ run-nectar    # generates data/flowering_vs_arrival.png and data/mismatch.png
 
 ## Files
 
-- `lorenz63.py` — Lorenz63 model class
-- `integrators.py` — Forward Euler integrator
+- `clean_my_data.py` — Lorenz63 model class
+- `mismatch_analysis.py` — Forward Euler integrator
 - `plotting.py` — Ensemble visualization
-- `run_lorenz_ensemble.py` — Driver script
+- `run_nectar.py` — Driver script
 
 ## License
 
